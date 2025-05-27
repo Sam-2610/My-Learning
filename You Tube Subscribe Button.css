@@ -1,0 +1,21 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+}
+
+.input{
+    background-color: black;
+    color: white;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+.element{
+    background-color: gray;
+    color: white;
+}
