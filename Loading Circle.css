@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+span{
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    border: 5px solid gray;
+    border-top-color: blue;
+    border-left-color: blue;
+    border-radius: 50%;
+    animation: rotate 600ms infinite linear;
+    margin:auto 50%;
+}
+
+@keyframes rotate{to{
+    transform: rotate(1turn);
+}}
